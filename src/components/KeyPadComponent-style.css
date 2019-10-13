@@ -1,0 +1,40 @@
+.keypad {
+    background: transparent;
+    border-right: #922829 1px solid;
+    border-bottom: #922829 1px solid;
+    border-left: none;
+    border-top: none;
+    cursor: pointer;
+    font-size: 30px;
+    height: 70px;
+    width: 24%;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.keypad:nth-child(1) {
+    border-left: #922829 1px solid;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: lighter;
+    height: 70px;
+    width: 72%;
+    font-family: serif;
+    color: #615e5e;
+}
+
+.keypad:nth-child(3), .keypad:nth-child(7), .keypad:nth-child(11) {
+    border-left: #922829 1px solid;
+}
+
+.keypad:nth-child(2), .keypad:nth-child(6), .keypad:nth-child(10), .keypad:nth-child(14) {
+   background-color: #ef484e;
+   color: white;
+}
+
+.keypad:nth-child(6) {
+    text-decoration: line-through;
+}
+
+.keypad-container {
+    width: 45%;
+}

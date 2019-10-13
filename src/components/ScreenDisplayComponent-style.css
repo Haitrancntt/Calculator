@@ -1,0 +1,14 @@
+.screen-display {
+    border: none;
+    background-color: #433436;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    height: 80px;
+    text-align: end;
+    width: 43%;
+}
+
+::placeholder {
+    color: white;
+}
